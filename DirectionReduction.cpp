@@ -26,6 +26,7 @@ namespace DirectionReduction
 	};
 
 
+
 	TEST_CLASS(DirectionReduction)
 	{
 	public:
