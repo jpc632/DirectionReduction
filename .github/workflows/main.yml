@@ -24,7 +24,7 @@ jobs:
           shell: cmd
 
         - name: compile 
-          run:  msbuild DirectionReduction.sln /t:Clean,Rebuild /p:Configuration=Debug /p:Platform=Win32
+          run:  msbuild DirectionReduction.sln /t:Clean,Rebuild /p:Configuration=Debug /p:Platform=x86
 
         - name: test 
           run:  vstest.console.exe bin\DirectionReduction.dll 
