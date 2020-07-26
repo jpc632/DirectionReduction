@@ -19,7 +19,7 @@ namespace DirectionReduction
 				{
 					arr.erase(arr.begin() + i - 1, arr.begin() + i + 1);
 					i -= i;
-				}
+				} 
 			}
 			return arr;
 		}
